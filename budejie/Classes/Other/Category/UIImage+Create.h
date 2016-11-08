@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+Create.h
 //  budejie
 //
 //  Created by 李龙龙 on 23/10/2016.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIImage (Create)
+
++ (UIImage *)imageOriginalWithName:(NSString *) imageName;
 
 
 @end
-
