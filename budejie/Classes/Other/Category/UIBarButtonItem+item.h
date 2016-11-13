@@ -14,5 +14,7 @@
 
 // 快速创建UIBarButtonItem 选中状态图片
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image selImage: (UIImage *)selImage target:(id)target action:(SEL)action;
+// 返回按钮
++ (UIBarButtonItem *)backItemWithImage:(UIImage *)image hightImage:(UIImage *)highImage target:(id)target action:(SEL)action string:(NSString *)backString;
 
 @end

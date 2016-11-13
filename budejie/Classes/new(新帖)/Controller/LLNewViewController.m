@@ -21,10 +21,9 @@
 }
 
 -(void) setupNavigationBar {
-    
     UIBarButtonItem * xiaoLeftButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(tagSubIcon)];
     self.navigationItem.leftBarButtonItem = xiaoLeftButtonItem;
-    
+    self.navigationItem.titleView =[[UIImageView alloc] initWithImage: [UIImage imageNamed:@"MainTitle"]];
 }
 
 - (void)tagSubIcon {

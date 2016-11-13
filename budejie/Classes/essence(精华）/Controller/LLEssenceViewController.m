@@ -19,7 +19,6 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
     [self setupNavBar];
-    
 }
 #pragma mark - 设置导航条
 - (void)setupNavBar {

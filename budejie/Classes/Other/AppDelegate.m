@@ -8,12 +8,8 @@
 
 #import "AppDelegate.h"
 
-
-#import "LLTabBarController.h"
-
-
-
-
+//#import "LLTabBarController.h"
+#import "LLAddViewController.h"
 
 @interface AppDelegate ()
 
@@ -28,15 +24,13 @@
     // 1 窗口创建 // self .window 强引用， 不会消失 .
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     // 2 设置根控制器
-    LLTabBarController * tabBarVc = [[LLTabBarController alloc] init];
+//    LLTabBarController * tabBarVc = [[LLTabBarController alloc] init];
+    LLAddViewController *adVc = [[LLAddViewController alloc] init];
     // 3 . 显示窗口， 1  成为UIApplication   主窗口 2 显示.
-    self.window.rootViewController = tabBarVc;
-         
+    self.window.rootViewController = adVc;
     
     // 3 显示窗口  1. 成为UIApplication 主窗口 2. 显示
     [self.window makeKeyAndVisible];
-    
-    
     return YES;
 }
 

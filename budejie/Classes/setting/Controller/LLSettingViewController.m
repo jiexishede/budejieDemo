@@ -1,57 +1,46 @@
 //
-//  LLMeViewController.m
+//  LLSettingViewController.m
 //  budejie
 //
-//  Created by 李龙龙 on 23/10/2016.
+//  Created by 李龙龙 on 12/11/2016.
 //  Copyright © 2016 banmaqishi. All rights reserved.
 //
 
-#import "LLMeViewController.h"
 #import "LLSettingViewController.h"
 
-@interface LLMeViewController ()
+@interface LLSettingViewController ()
 
 @end
 
-@implementation LLMeViewController
+@implementation LLSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    [self setupNavBar];
-
+    [self initRightItemButton];
 }
 
-- (void)setupNavBar {
-    UIBarButtonItem *settingItem= [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] selImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(setting)];
-    UIBarButtonItem *nightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] selImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(night:)];
-    
-    self.navigationItem.rightBarButtonItems = @[settingItem,nightItem];
-    self.navigationItem.title  = @"我的";
+- (void)initRightItemButton {
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"jump" style:UIBarButtonItemStylePlain target:self action:@selector(jump)];
 }
 
-- (void)night:(UIButton *)button{
-    button.selected = !button.selected;
+- (void)jump {
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.view.backgroundColor  = [UIColor whiteColor];// 一个控制器，没有背景色，push 它的时候会有卡顿效果
+    [self.navigationController pushViewController:vc animated:YES];
 }
-
-- (void)setting {
-    LLSettingViewController *setVC = [[LLSettingViewController alloc] init];
-    setVC.hidesBottomBarWhenPushed = true;
-
-    [self.navigationController pushViewController:setVC animated:YES];
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 #pragma mark - Table view data source
 

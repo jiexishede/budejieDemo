@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820E17291DD82D5F002FEEED /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17221DD82D5F002FEEED /* LaunchImage-568h@2x.png */; };
+		820E172A1DD82D5F002FEEED /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17231DD82D5F002FEEED /* LaunchImage-700-568h@2x.png */; };
+		820E172B1DD82D5F002FEEED /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17241DD82D5F002FEEED /* LaunchImage-700@2x.png */; };
+		820E172C1DD82D5F002FEEED /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17251DD82D5F002FEEED /* LaunchImage-800-667h@2x.png */; };
+		820E172D1DD82D5F002FEEED /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17261DD82D5F002FEEED /* LaunchImage-800-Portrait-736h@3x.png */; };
+		820E172E1DD82D5F002FEEED /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17271DD82D5F002FEEED /* LaunchImage.png */; };
+		820E172F1DD82D5F002FEEED /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820E17281DD82D5F002FEEED /* LaunchImage@2x.png */; };
 		8215D7E61DC3AA2900882A03 /* LLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8215D7E51DC3AA2900882A03 /* LLNavigationController.m */; };
 		8215D7E91DC3AD5F00882A03 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8215D7E81DC3AD5F00882A03 /* UIBarButtonItem+item.m */; };
 		82415DBA1DBC6AB20056FED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82415DB81DBC6AB20056FED4 /* Main.storyboard */; };
@@ -22,6 +29,9 @@
 		82AD545D1DBC9DC300F2566F /* LLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AD545C1DBC9DC300F2566F /* LLMeViewController.m */; };
 		82AD54601DBC9E2000F2566F /* LLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AD545F1DBC9E2000F2566F /* LLNewViewController.m */; };
 		82AD54631DBC9E3400F2566F /* LLPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AD54621DBC9E3400F2566F /* LLPublishViewController.m */; };
+		82B1D43F1DD6D71100EB2334 /* LLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B1D43E1DD6D71100EB2334 /* LLSettingViewController.m */; };
+		82B1D4461DD7790200EB2334 /* LLAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B1D4451DD7790200EB2334 /* LLAddViewController.m */; };
+		82B1D4481DD7791800EB2334 /* LLAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B1D4471DD7791800EB2334 /* LLAddViewController.xib */; };
 		82D8019E1DBCD73800F93CE3 /* LLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D8019D1DBCD73800F93CE3 /* LLTabBarController.m */; };
 		82D801A51DBCE14600F93CE3 /* UIImage+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D801A41DBCE14600F93CE3 /* UIImage+Create.m */; };
 /* End PBXBuildFile section */
@@ -37,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820E17221DD82D5F002FEEED /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		820E17231DD82D5F002FEEED /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		820E17241DD82D5F002FEEED /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		820E17251DD82D5F002FEEED /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		820E17261DD82D5F002FEEED /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		820E17271DD82D5F002FEEED /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		820E17281DD82D5F002FEEED /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		8215D7E41DC3AA2900882A03 /* LLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNavigationController.h; sourceTree = "<group>"; };
 		8215D7E51DC3AA2900882A03 /* LLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNavigationController.m; sourceTree = "<group>"; };
 		8215D7E71DC3AD5F00882A03 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
@@ -67,6 +84,11 @@
 		82AD545F1DBC9E2000F2566F /* LLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNewViewController.m; sourceTree = "<group>"; };
 		82AD54611DBC9E3400F2566F /* LLPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPublishViewController.h; sourceTree = "<group>"; };
 		82AD54621DBC9E3400F2566F /* LLPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPublishViewController.m; sourceTree = "<group>"; };
+		82B1D43D1DD6D71100EB2334 /* LLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSettingViewController.h; sourceTree = "<group>"; };
+		82B1D43E1DD6D71100EB2334 /* LLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSettingViewController.m; sourceTree = "<group>"; };
+		82B1D4441DD7790200EB2334 /* LLAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAddViewController.h; sourceTree = "<group>"; };
+		82B1D4451DD7790200EB2334 /* LLAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAddViewController.m; sourceTree = "<group>"; };
+		82B1D4471DD7791800EB2334 /* LLAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLAddViewController.xib; sourceTree = "<group>"; };
 		82D8019C1DBCD73800F93CE3 /* LLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBarController.h; sourceTree = "<group>"; };
 		82D8019D1DBCD73800F93CE3 /* LLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBarController.m; sourceTree = "<group>"; };
 		82D801A31DBCE14600F93CE3 /* UIImage+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Create.h"; sourceTree = "<group>"; };
@@ -91,6 +113,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820E17211DD82D5F002FEEED /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				820E17221DD82D5F002FEEED /* LaunchImage-568h@2x.png */,
+				820E17231DD82D5F002FEEED /* LaunchImage-700-568h@2x.png */,
+				820E17241DD82D5F002FEEED /* LaunchImage-700@2x.png */,
+				820E17251DD82D5F002FEEED /* LaunchImage-800-667h@2x.png */,
+				820E17261DD82D5F002FEEED /* LaunchImage-800-Portrait-736h@3x.png */,
+				820E17271DD82D5F002FEEED /* LaunchImage.png */,
+				820E17281DD82D5F002FEEED /* LaunchImage@2x.png */,
+			);
+			name = "启动图片";
+			path = "Classes/启动图片";
+			sourceTree = "<group>";
+		};
 		82415DA31DBC6AB20056FED4 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +162,7 @@
 		82415DAF1DBC6AB20056FED4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				820E17211DD82D5F002FEEED /* 启动图片 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +179,8 @@
 		82AD543A1DBC9CFB00F2566F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				82B1D4401DD778D900EB2334 /* add */,
+				82B1D4391DD6D6DB00EB2334 /* setting */,
 				82D801951DBCD6EA00F93CE3 /* Maiin */,
 				82AD543B1DBC9CFB00F2566F /* essence(精华） */,
 				82AD543F1DBC9CFB00F2566F /* FriendTrend(关注) */,
@@ -329,6 +369,73 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		82B1D4391DD6D6DB00EB2334 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				82B1D43A1DD6D6DB00EB2334 /* Controller */,
+				82B1D43B1DD6D6DB00EB2334 /* Model */,
+				82B1D43C1DD6D6DB00EB2334 /* View */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		82B1D43A1DD6D6DB00EB2334 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82B1D43E1DD6D71100EB2334 /* LLSettingViewController.m */,
+				82B1D43D1DD6D71100EB2334 /* LLSettingViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82B1D43B1DD6D6DB00EB2334 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82B1D43C1DD6D6DB00EB2334 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82B1D4401DD778D900EB2334 /* add */ = {
+			isa = PBXGroup;
+			children = (
+				82B1D4411DD778D900EB2334 /* Controller */,
+				82B1D4421DD778D900EB2334 /* Model */,
+				82B1D4431DD778D900EB2334 /* View */,
+			);
+			path = add;
+			sourceTree = "<group>";
+		};
+		82B1D4411DD778D900EB2334 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82B1D4441DD7790200EB2334 /* LLAddViewController.h */,
+				82B1D4451DD7790200EB2334 /* LLAddViewController.m */,
+				82B1D4471DD7791800EB2334 /* LLAddViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82B1D4421DD778D900EB2334 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82B1D4431DD778D900EB2334 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		82D801951DBCD6EA00F93CE3 /* Maiin */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,8 +570,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B1D4481DD7791800EB2334 /* LLAddViewController.xib in Resources */,
+				820E172D1DD82D5F002FEEED /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				82415DBF1DBC6AB20056FED4 /* LaunchScreen.storyboard in Resources */,
+				820E172F1DD82D5F002FEEED /* LaunchImage@2x.png in Resources */,
+				820E172A1DD82D5F002FEEED /* LaunchImage-700-568h@2x.png in Resources */,
+				820E172C1DD82D5F002FEEED /* LaunchImage-800-667h@2x.png in Resources */,
+				820E17291DD82D5F002FEEED /* LaunchImage-568h@2x.png in Resources */,
+				820E172E1DD82D5F002FEEED /* LaunchImage.png in Resources */,
 				82415DBC1DBC6AB20056FED4 /* Assets.xcassets in Resources */,
+				820E172B1DD82D5F002FEEED /* LaunchImage-700@2x.png in Resources */,
 				82415DBA1DBC6AB20056FED4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,7 +602,9 @@
 				82AD545A1DBC9D9D00F2566F /* LLFriendTrendViewController.m in Sources */,
 				82AD54571DBC9D6800F2566F /* LLEssenceViewController.m in Sources */,
 				82AD54541DBC9CFB00F2566F /* main.m in Sources */,
+				82B1D4461DD7790200EB2334 /* LLAddViewController.m in Sources */,
 				8215D7E61DC3AA2900882A03 /* LLNavigationController.m in Sources */,
+				82B1D43F1DD6D71100EB2334 /* LLSettingViewController.m in Sources */,
 				82D801A51DBCE14600F93CE3 /* UIImage+Create.m in Sources */,
 				82AD54601DBC9E2000F2566F /* LLNewViewController.m in Sources */,
 				824605821DBED307004F4BB4 /* LLTabBar.m in Sources */,

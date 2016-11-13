@@ -24,12 +24,15 @@
  3.自定义Log
  */
 
+/**
+ * ** 屏幕适配
+ */
 #define LLScreenW [UIScreen mainScreen].bounds.size.width
 #define LLScreenH [UIScreen mainScreen].bounds.size.height
 #define iphone6P (LLScreenH == 736)
 #define iphone6 (LLScreenH == 667)
-#define iphone5 (LLGScreenH == 568)
-#define iphone4 (LLGScreenH == 480)
+#define iphone5 (LLScreenH == 568)
+#define iphone4 (LLScreenH == 480)
 
 
 #define  LLFunc LLLog(@"%s",__func__)
